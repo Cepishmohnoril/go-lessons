@@ -1,8 +1,8 @@
 package main
 
 import (
-	"dog"
 	"fmt"
+	"github.com/Cepishmohnoril/go-lessons/src/Jedy_level_12/1/dog"
 )
 
 func main() {

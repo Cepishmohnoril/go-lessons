@@ -12,10 +12,10 @@ type person struct {
 }
 
 func main() {
-	fortunateJson()
+	fortunateJSON()
 }
 
-func fortunateJson() {
+func fortunateJSON() {
 	p1 := person{
 		First: "Foo",
 		Last:  "Bar",

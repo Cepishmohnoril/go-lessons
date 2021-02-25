@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-var foo string = "This is foo"
+var foo = "This is foo"
 
 func main() {
 	first()

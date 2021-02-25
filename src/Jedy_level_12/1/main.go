@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/Cepishmohnoril/go-lessons/src/Jedy_level_12/1/dog"
 )
 

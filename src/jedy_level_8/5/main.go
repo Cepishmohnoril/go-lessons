@@ -12,12 +12,14 @@ type user struct {
 	Sayings []string
 }
 
+//SortByAge array of type user for sorting by age
 type SortByAge []user
 
 func (a SortByAge) Len() int           { return len(a) }
 func (a SortByAge) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 func (a SortByAge) Less(i, j int) bool { return a[i].Age < a[j].Age }
 
+//SortByLast array of type user for sorting by last name
 type SortByLast []user
 
 func (l SortByLast) Len() int           { return len(l) }
